@@ -51,7 +51,13 @@ function CustomLink({ to, children, ...props }) {
   const resolvedPath = useResolvedPath(to);
   const isActive = useMatch({ path: resolvedPath.pathname, end: true });
   return (
-    <li className={isActive ? "text-red-500" : "text-slate-500"}>
+    <li
+      className={
+        isActive
+          ? "text-red-500 scale-105 transition duration-300 ease-in-out"
+          : "text-slate-500 transition duration-300 ease-in-out"
+      }
+    >
       <Link to={to} {...props}>
         {children}
       </Link>
