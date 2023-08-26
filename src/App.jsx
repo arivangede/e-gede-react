@@ -23,7 +23,7 @@ function App() {
       )}
 
       <div className="container h-screen">
-        <div className="w-full h-full bg-slate-50 p-4">
+        <div className="w-full h-full bg-neutral-50 justify-center items-center">
           <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/" element={<Home />} />

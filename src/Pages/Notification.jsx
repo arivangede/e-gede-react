@@ -1,6 +1,6 @@
 const Notification = () => {
   return (
-    <div>
+    <div className="entrance">
       <h1>Halaman Notifikasi</h1>
     </div>
   );
