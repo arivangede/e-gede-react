@@ -22,9 +22,9 @@ const Navbar = () => {
         </CustomLink>
 
         <li>
-          <Link className="flex flex-col items-center justify-center  -mt-8 h-16 w-16 p-1 border rounded-full shadow-lg bg-red-300">
+          <button className="flex flex-col items-center justify-center  -mt-8 h-16 w-16 p-1 border rounded-full shadow-lg bg-red-300">
             <img className="w-full h-full" src={LogoMenu} alt="menu" />
-          </Link>
+          </button>
         </li>
 
         <CustomLink
@@ -54,7 +54,7 @@ function CustomLink({ to, children, ...props }) {
     <li
       className={
         isActive
-          ? "text-red-500 scale-105 transition duration-300 ease-in-out"
+          ? "text-red-500 scale-110 transition duration-300 ease-in-out"
           : "text-slate-500 transition duration-300 ease-in-out"
       }
     >

@@ -1,6 +1,6 @@
 const Profile = () => {
   return (
-    <div>
+    <div className="entrance">
       <h1>Halaman Profile</h1>
     </div>
   );
